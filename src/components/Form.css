@@ -1,0 +1,71 @@
+.form {
+  width: 50%;
+  /* height: 490px; */
+  font-size: 20px;
+  /* margin: 0 auto;
+  margin: 70px; */
+  display: grid;
+  color: #6b7777;
+  gap: 1rem;
+}
+.lable-group label {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.cutom-bar {
+  width: 80%;
+  border-radius: 10px;
+  display: block;
+  padding: 12px 20px;
+  background-color: #f3f8fb;
+  outline: none;
+  border: none;
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #a9c3c6;
+  text-align: end;
+  color: black;
+}
+input::placeholder {
+  text-align: start;
+}
+.tip-amount {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.input-btn,.tip-custom{
+   width: 110px;
+    border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  margin-right: 15px;
+  background-color: #00474b;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  display: block;  
+}
+.tip-custom {
+  background-color: #f3f8fb;
+  color: #00474b;
+  text-align: end;
+}
+.input-btn:hover {
+  background-color: rgb(30, 120, 125);
+}
+.error{
+  color: #B48372;
+  line-height: 30px;
+  display: inline;
+font-size: 20px;
+font-weight: 600;
+padding-left: 37px;
+
+}
+
+

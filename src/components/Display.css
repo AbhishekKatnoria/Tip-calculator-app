@@ -1,0 +1,41 @@
+
+.display-row{
+    width: 50%;
+    font-size: 20px;
+    margin: 0 auto;
+    background-color: #00474B;
+    border-radius: 15px;
+    padding : 50px;
+  }
+  .display-container{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    margin: 40px 0;
+  }
+  .unit{
+    font-size: 15px;
+    color: #649BA0;
+  }
+  .display-amt{
+    color: #21C3AC;
+    font-size: 32px;
+    font-weight: 900;
+  }
+  
+  .reset-btn{
+    background-color: #0D686D;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 24px;
+    color: #004849;
+    font-weight: 700;
+    margin-top: 50px;
+  }
+  .reset-btn:hover{
+    font-size: 26px;
+    background-color: #529093;
+    cursor: pointer;
+  }
